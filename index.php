@@ -6,7 +6,7 @@
 <body>
 <?php
 function getVersion($versao){ return $versao; }
-function ShowIndexMessage($msgindex){ echo "<strong>$msgindex".getVersion("1.5")."</strong><br >"; }
+function ShowIndexMessage($msgindex){ echo "<strong>$msgindex".getVersion("2.0")."</strong><br >"; }
 ShowIndexMessage("Estamos no Index.php - ");
 echo "<a href=\"msg.php\">Ir para msg.php</a>";
 ?>
